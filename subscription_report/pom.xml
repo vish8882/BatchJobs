@@ -1,0 +1,36 @@
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>CTL-Subscription_Report</groupId>
+	<artifactId>CTL-Subscription_Report</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<name>Subscription Report Batch</name>
+
+	<properties>
+		<PRJ_DIR>/product/batches/METADATA</PRJ_DIR>
+		<PRJ_JOB></PRJ_JOB>
+		<version.commons.bundle.batch>3</version.commons.bundle.batch>
+	</properties>
+
+	<dependencies>
+		<dependency>
+    <groupId>org.springframework.batch</groupId>
+    <artifactId>spring-batch-core</artifactId>
+    <version>3.0.1.RELEASE</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-jdbc</artifactId>
+    <version>3.2.0.RELEASE</version>
+</dependency>
+
+
+	</dependencies>
+	
+</project>
